@@ -8,6 +8,7 @@ void Complex::print(ostream& os){
         os << Re << Im << "i" << endl;
     }else{
         os << Re <<"+"<< Im << "i" << endl;
+        
     }
 }
 
