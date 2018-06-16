@@ -11,6 +11,7 @@ SCENARIO("complex new with pram","[new with param]"){
     Complex complex(2,-3);
     REQUIRE(complex.real() == 2);
     REQUIRE(complex.imaginary() == -3);
+    
 }
 
 SCENARIO("complex copy","[copy]"){
